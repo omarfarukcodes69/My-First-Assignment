@@ -208,3 +208,45 @@ main section {
     border-radius: 78px;
     padding-top: 20px;
 }
+/* -----------touch Section style -------------- */
+.touch-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 71px 0;
+    background-color: rgba(255, 255, 255, .3);
+    gap: 50px;
+}
+
+.touch-tittle {
+    width: 50%;
+    font-size: 97px;
+    font-weight: 800;
+    color: var(--dark1);
+}
+
+form label {
+    font-size: 18px;
+    margin-top: 20px;
+    color: var(--dark1);
+}
+
+form input,
+textarea {
+    width: 100%;
+    font-size: 18px;
+    color: var(--dark1);
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+form input::placeholder {
+    padding: 20px 32px;
+}
+
+form button {
+    width: 100%;
+    margin-top: 20px;
+}
