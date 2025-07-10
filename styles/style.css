@@ -110,3 +110,35 @@ main section {
 .action-image {
     border-radius: 50px;
 }
+/* ----------Productive Section Style------------- */
+.productive-Section {
+    background-color: rgba(78, 71, 255, .10);
+    border-radius: 24px;
+    padding: 50px 142px;
+}
+
+.productive-tittle {
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--dark1);
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.productive-infos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-Number {
+    font-size: 80px;
+    font-weight: 800;
+    color: var(--maincolor);
+}
+
+.productive-info p {
+    font-size: 20px;
+    text-align: center;
+    color: var(--dark2);
+}
