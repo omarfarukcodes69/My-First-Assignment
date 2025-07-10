@@ -142,3 +142,49 @@ main section {
     text-align: center;
     color: var(--dark2);
 }
+
+/* --------------Feedback SECTION stylE-------------------------- */
+.feedback-tittle {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--dark1);
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    padding: 24px;
+    background-color: #ffffff;
+}
+
+.icons {
+    padding-bottom: 10px;
+}
+
+.card-tittle {
+    font-size: 24px;
+    color: var(--dark1);
+}
+
+.card-description {
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+.profile {
+    display: flex;
+    gap: 12px;
+    padding-top: 24px;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
