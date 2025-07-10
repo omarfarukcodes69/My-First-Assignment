@@ -80,3 +80,33 @@ nav {
     font-weight: 700;
     margin-bottom: 37px;
 }
+/* -------- main ----------- */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin: 150px 0;
+}
+
+/* ------------- Action Section Style ---------------- */
+.action-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
+
+.action-header {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.action-description {
+    padding: 23px 0;
+}
+
+.action-image {
+    border-radius: 50px;
+}
