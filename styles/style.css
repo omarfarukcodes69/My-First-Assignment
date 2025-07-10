@@ -187,4 +187,24 @@ main section {
 .profile img {
     border-radius: 50%;
 }
+/* -----------------focus section style------------------------ */
+.focus-section {
+    padding: 71px 150px;
+    background-color: rgba(255, 255, 255, .3);
+    text-align: center;
+    align-items: center;
+}
 
+.focus-tittle {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.focus-section p {
+    padding: 20px 0;
+}
+
+.focus-img {
+    border-radius: 78px;
+    padding-top: 20px;
+}
